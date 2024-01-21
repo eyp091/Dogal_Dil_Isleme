@@ -2,7 +2,7 @@ from collections import Counter
 from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
 
-dosya_adi = "C:\\Users\\escan\\Desktop\\Yazılım Dilleri\\ddi\\yeni_sonuc.txt"
+dosya_adi = "yeni_sonuc.txt"
 with open(dosya_adi, "r", encoding="utf-8") as dosya:
     veri_seti = dosya.read()
 

@@ -3,7 +3,7 @@ import random
 
 model = SentenceTransformer('dbmdz/bert-base-turkish-128k-uncased')
 
-with open("C:\\Users\\escan\\Desktop\\Yazılım Dilleri\\ddi\\indexli_sonuc.txt", "r", encoding="utf-8") as file:
+with open("indexli_sonuc.txt", "r", encoding="utf-8") as file:
     data = file.readlines()
 
 for _ in range(5):

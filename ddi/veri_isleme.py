@@ -30,13 +30,13 @@ output_dosya = 'yeni_sonuc.txt'
 veri_on_isleme(input_dosya, output_dosya)
 
 # Cümlelere index ekleme
-with open("C:\\Users\\escan\\Desktop\\Yazılım Dilleri\\ddi\\yeni_sonuc.txt", "r", encoding="utf-8") as file:
+with open("yeni_sonuc.txt", "r", encoding="utf-8") as file:
     cumleler = file.readlines()
 
 indeksli_cumleler = []
 for index, cumle in enumerate(cumleler):
     indeksli_cumleler.append(f"{index + 1}: {cumle}")
 
-with open("C:\\Users\\escan\\Desktop\\Yazılım Dilleri\\ddi\\indexli_sonuc.txt", "w", encoding="utf-8") as file:
+with open("indexli_sonuc.txt", "w", encoding="utf-8") as file:
     file.writelines(indeksli_cumleler)
 
