@@ -15,6 +15,7 @@
 - En çok geçen 20 kelime belirlenir.(Counter)
 - Daha sonra word2vec modeli oluşturulur.
 - Daha sonra oluşturulan bu modeli kullanarak seçilen kelimeye en çok benzeyen 5 kelime belirlenir.
+![cumle](https://github.com/eyp091/Dogal_Dil_Isleme/blob/main/resimler/kelime1.png)
 
 ## 4.Adım: Seçilen Cümleye En Çok Benzeyen Cümle:
 - Dosyadaki veri okunur ve bir değişkene atanır.
@@ -24,3 +25,4 @@
 - convert_to_tensor=True parametresi, pyTorch tensor'ları olarak gömme vektörlerini almayı sağlar.
 - PyTorch kütüphanesinde bulunan kosinüs benzerliği fonksiyonu kullanılarak referans cümlesi ile diğer cümleler arasındaki benzerlik skorları hesaplanır.
 - Benzerlik skorlarına göre sıralama yapılır ve en benzer üç cümle seçilir.
+![cumle](https://github.com/eyp091/Dogal_Dil_Isleme/blob/main/resimler/cumleler.png)
